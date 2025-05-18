@@ -11,11 +11,6 @@ fi
 echo "Cleaning training-related files in: $prefix"
 
 rm -rf "${prefix}states/"
-rm -rf "${prefix}cnts-super/"
-rm -rf "${prefix}cnts-super-plots/"
-rm -rf "${prefix}cnts-clustered/"
-rm -rf "${prefix}clusters-gene/"
-rm -rf "${prefix}spots/"
-rm -f  "${prefix}embeddings-gene.pickle"
+rm -f  "${prefix}embeddings-hist-raw.pickle"
 
 echo "✅ Training-related files deleted (histology features kept)."
