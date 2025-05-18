@@ -12,6 +12,6 @@ echo "Cleaning training-related files in: $prefix"
 
 # Comment out the embeddings-hist-raw if you want to keep the histology features. This will help retraining the model with the same histology features but different gene features.
 rm -f "${prefix}embeddings-hist-raw.pickle"
-rm -f "${prefix}states/"
+rm -rf "${prefix}states/"
 
 echo "✅ Training-related files deleted"
